@@ -1,0 +1,19 @@
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Streamlit local secrets and configs
+.streamlit/secrets.toml
+
+# IDE configurations
+.vscode/
+.idea/
+.DS_Store
