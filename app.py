@@ -5,8 +5,14 @@ Covers: Executive Overview & Trends | Product & Channel Performance | Geographic
 """
 
 import streamlit as st
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 from utils.data_loader import load_data
 from utils.styles import inject_css
+
 
 
 APP_URL = "http://127.0.0.1:8501/"
